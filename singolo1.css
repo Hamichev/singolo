@@ -1,0 +1,207 @@
+@font-face {
+    font-family: "Lato Bold";
+    src: url(./fonts/Lato/Lato-Bold.ttf) format('truetype'); 
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Lato Regular";
+    src: url(./assets/fonts/Lato/Lato-Regular.ttf) format('truetype'); 
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Lato Black";
+    src: url(./assets/fonts/Lato/Lato-Black.ttf) format('truetype'); 
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Lato Light";
+    src: url(./assets/fonts/Lato/Lato-Light.ttf) format('truetype'); 
+    font-style: normal;
+    font-weight: normal;
+}
+
+body {
+width: 1020px;
+font-family: "Lato Regular", "Lato Bold", "New Time Roman" ;
+margin: 0 auto;
+}
+
+span.point:after {
+    content: '\00B7';
+    padding: 0 14px;
+    color: #494E62;
+}
+
+.menu {
+    margin: 0;
+    float: left;
+    list-style: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    margin: 0;
+    float: left;
+    list-style: none;
+    font-size: 0.75em;
+    letter-spacing: -0.02em;
+    color: white;
+}
+
+/*Header*/
+
+.header {
+    width: 1020px;
+    height: 89px;
+    background-color: #2d303a;
+}
+
+.HLine {
+    width: 1020px;
+    height: 6px;
+    background-color: #323746;
+}
+
+.header__navigation {
+    
+    margin: -30.5px 31px 27px 609.5px;
+}
+
+.Logo {
+    padding: 31px 0 0 40px; 
+    font-size: 25px;
+    line-height: 25px;
+    color: #ffffff;
+    text-align: left;
+    letter-spacing: -0.015em;
+    font-style: normal;
+    font-weight: normal;
+}
+
+/*Slider*/
+
+.slider {
+    width: 1020px;
+    height: 594px;
+    background-color: #f06c64;
+}
+
+.SLine {
+    width: 1020px;
+    height: 6px;
+    background-color: #ea676b;
+}
+
+.iPhone_Vertical {
+    position: absolute;
+    width: 240px;
+    height: 483px;
+    border-radius: 27px;
+    margin: 53px 0 0 112px;
+}
+
+.iPhone_Horizontal {
+    position: absolute;
+    width: 484px;
+    height: 240px;
+    border-radius: 27px;
+    margin: 174px 0 0 425.5px;
+}
+
+.arrow__right {
+    position: absolute;
+    margin: 281px 0 0 964.5px;
+  cursor: pointer;
+}
+
+.arrow__left {
+    position: absolute;
+    margin: 281px 0 0 42px;
+  cursor: pointer;
+}
+
+/*Our Services*/
+
+.our_services {
+    width: 1020px;
+height: 495px;
+background-color: #f2f2f2;
+}
+
+.Logo__our_services {
+    font-family: "Lato Black", "Lato Regular";
+    font-size: 30px;
+    color: #666d89;
+    padding: 60px 0 0 40px;
+    margin:0;
+}
+
+.Text_OS {
+    font-family: "Lato Light", "Lato Regular";
+    text-align : justify;
+    word-spacing: -0.063em;
+    width: 939px;
+    height: 47px;
+    font-size: 18px;
+    letter-spacing: -0.047px;
+    line-height: 30px;
+    color: #767e9e;
+    padding: 0 0 0 40px;
+}
+
+.OsGrid {
+    display: grid;
+    grid-template:  87px 87px/ repeat(3,60px 220px);
+    grid-gap: 37px 20px;
+    padding: 27px 0 0 40px;
+    align-items: center;
+    justify-items: center;
+
+}
+
+.OsGridLogo {
+    font-family: "Lato Black", "Lato Light";
+    color: #666d89;
+    text-align: left;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 18px;
+    margin: 40px 0 0 0;
+    word-spacing: -.5px;
+}
+
+.OS_image {
+    width: 60px;
+    display: inline-block;
+    height: 60px;
+}
+
+.OsGridText {
+    font-family: "Lato Regular", "Lato Light";
+    text-align : justify;
+    font-size: 12px;
+    line-height: 21px;
+    font-weight: 400;
+    color: #767e9e;
+    padding: 0;
+}
+
+.OSLine {
+    width: 1020px;
+    height: 6px;
+    background-color: #ffffff;
+}
+
+.Pink {
+    color: #f06c64;
+}
