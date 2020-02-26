@@ -1,0 +1,37 @@
+body {
+    margin: 0 auto;
+    width: 1020px;
+}
+
+.Logo {
+    font-size: 30px;
+    line-height: 18px;
+    color: #666d89;
+    font-family: "Lato";
+    font-weight: 900;
+    text-align: left;
+}
+
+.Portfolio {
+    margin: 0;
+    height: 870px;
+    background-color: #2d303a;
+}
+
+.Portfolio__Line {
+    margin: 0;
+    height: 6px;
+    background-color: #323746;
+}
+
+.About_Us {
+    margin: 0;
+    height: 728px;
+    background-color: #f2f2f2;
+}
+
+.About_Us__Line {
+    margin: 0;
+    height: 6px;
+    background-color: #ffffff;
+}
