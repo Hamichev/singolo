@@ -1,3 +1,35 @@
+@font-face {
+    font-family: "Lato Bold";
+    src: url(./fonts/Lato/Lato-Bold.ttf) format('truetype'); 
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Lato Regular";
+    src: url(./assets/fonts/Lato/Lato-Regular.ttf) format('truetype'); 
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Lato Black";
+    src: url(./assets/fonts/Lato/Lato-Black.ttf) format('truetype'); 
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Lato Light";
+    src: url(./assets/fonts/Lato/Lato-Light.ttf) format('truetype'); 
+    font-style: normal;
+    font-weight: normal;
+}
+
+* {
+    margin:0;
+}
+
 body {
     margin: 0 auto;
     width: 1020px;
@@ -7,9 +39,25 @@ body {
     font-size: 30px;
     line-height: 18px;
     color: #666d89;
-    font-family: "Lato";
+    font-family: "Lato Black";
     font-weight: 900;
-    text-align: left;
+}
+
+.first {
+    padding-top: 69px;
+    padding-left: 40px;
+    letter-spacing:0.15px;
+}
+
+.Portfolio__FishText {
+    margin: 27px 0 0 40px;
+    font-size: 18px;
+    line-height: 30px;
+    color: #767e9e;
+    font-family: "Lato Light";
+    font-weight: 300;
+    text-align: justify;
+    letter-spacing:-0.2px;
 }
 
 .Portfolio {
