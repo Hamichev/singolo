@@ -74,12 +74,18 @@ body {
     margin-left: 5px;
 }
 
+.Box {
+    padding: 15px 0 0 40px;
+    width:942px;
+    height: 602px;
+    overflow: hidden;
+}
+
 .image_content {
     display:grid;
     grid-template: repeat(3,187px)/ repeat(4,220px);
     margin:0;
     grid-gap: 20px 20px;
-    padding: 15px 0 0 40px;
     align-items: center;
     justify-items: center;
 }
@@ -136,6 +142,7 @@ body {
     font-weight: 900;
     font-size: 19px;
     line-height: 19px;
+    white-space: pre;
 }
 
 .Adam {
@@ -164,7 +171,7 @@ body {
 }
 
 .Text1 {
-    letter-spacing: -.1px;
+    letter-spacing: -.065px;
     word-spacing: -0.25px;
 }
 
