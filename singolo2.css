@@ -54,7 +54,8 @@ body {
     font-family: "Lato Light";
     font-weight: 300;
     text-align: left;
-    letter-spacing:-0.1px;
+    letter-spacing:-0.15px;
+    word-spacing: -.4px;
 }
 
 .Portfolio {
@@ -101,20 +102,87 @@ body {
 
 .About_Us__FishText {
     margin: 26px 0 0 40px;
-    width: 940px;
-    height: 57px;
+    font-family: "Lato Light", "Lato Regular";
+    text-align : justify;
+    word-spacing: -0.063em;
+    width: 939px;
+    height: 47px;
     font-size: 18px;
+    letter-spacing: -0.047px;
     line-height: 30px;
     color: #767e9e;
-    font-family: "Lato Light";
-    font-weight: 300;
+}
+
+.image_and_text {
+    margin: 58px 0 0 39px;
+    display: grid;
+    grid-template: 300px 14px 32px / repeat(3,303px);
+    grid-gap: 16px 17px;
+}
+
+#image2 {
+    width:300px;
+    height:300px;
+}
+
+#image3 {
+    margin-left: 1px;
+}
+
+.Name {
+    font-family: "Lato Black", "Lato Light";
+    color: #666d89;
     text-align: left;
-    letter-spacing: -0.1px;
+    font-weight: 900;
+    font-size: 19px;
+    line-height: 19px;
+}
+
+.Adam {
+    letter-spacing: -0.5px;
+    word-spacing: -.4px;
+}
+
+.Desmond {
+    letter-spacing: -0.7px;
+    word-spacing: -.4px;
+}
+
+.Scolara {
+    letter-spacing: -0.3px;
+    word-spacing: -.4px;
+}
+
+.description {
+    font-family: "Lato Regular", "Lato Light";
+    text-align : left;
+    font-size: 12px;
+    line-height: 21px;
+    font-weight: 400;
+    color: #767e9e;
+    margin-top:-1px;
+}
+
+.Text1 {
+    letter-spacing: -.1px;
+    word-spacing: -0.25px;
+}
+
+.Text2 {
+    letter-spacing: 0.135px;
+    word-spacing: 0.05px;
+}
+
+.Text3 {
+    letter-spacing: 0.1px;
+    word-spacing: -.1px;
 }
 
 .link {
     display: grid;
-    grid-template: 50px / repeat(3,50px 50px 50px 150px);
+    grid-template: 32px / repeat(4,32px) 151px repeat(4,32px) 152px repeat(4,32px);
+    margin:33px 0 0 41px;
+    grid-column-gap: 8px;
 }
 
 .About_Us__Line {
