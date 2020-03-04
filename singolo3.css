@@ -1,0 +1,76 @@
+@font-face {
+    font-family: "Lato Bold";
+    src: url(./fonts/Lato/Lato-Bold.ttf) format('truetype'); 
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Lato Regular";
+    src: url(./assets/fonts/Lato/Lato-Regular.ttf) format('truetype'); 
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Lato Black";
+    src: url(./assets/fonts/Lato/Lato-Black.ttf) format('truetype'); 
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Lato Light";
+    src: url(./assets/fonts/Lato/Lato-Light.ttf) format('truetype'); 
+    font-style: normal;
+    font-weight: normal;
+}
+
+* {
+    margin:0;
+}
+
+body {
+    width: 1020px;
+    margin:0 auto;
+}
+
+.Get_a_Quote {
+    width: 1020px;
+    height: 648px;
+    background-color: #f06c64;
+}
+
+.Logo {
+    padding: 65px 0 0 45px;
+    font-size: 30px;
+    line-height: 18px;
+    color: #f0d8d9;
+    font-family: "Lato Black";
+    font-weight: 900;
+    text-align: left;
+}
+
+.Text_after_Logo {
+    padding: 65px 0 0 45px;
+    width: 940px;
+    height: 57px;
+    font-size: 18px;
+    line-height: 30px;
+    color: #f0d8d9;
+    font-family: "Lato Light";
+    font-weight: 300;
+    text-align: left;
+}
+
+.Get_a_Quote_Line {
+    width: 1020px;
+    height: 6px;
+    background-color: #ea676b;
+}
+
+.Footer {
+    width: 1020px;
+    height: 76px;
+    background-color: #2d303a;
+}
