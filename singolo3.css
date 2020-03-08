@@ -42,7 +42,7 @@ body {
 }
 
 .Logo {
-    padding: 65px 0 0 45px;
+    padding: 69px 0 0 39px;
     font-size: 30px;
     line-height: 18px;
     color: #f0d8d9;
@@ -52,7 +52,7 @@ body {
 }
 
 .Text_after_Logo {
-    padding: 65px 0 0 45px;
+    padding: 26px 0 0 40px;
     width: 940px;
     height: 57px;
     font-size: 18px;
@@ -61,6 +61,84 @@ body {
     font-family: "Lato Light";
     font-weight: 300;
     text-align: left;
+    word-spacing: -.4px;
+}
+
+.Grid_Box {
+    margin:47px 0 0 40px;
+    display: grid;
+    grid-template-columns: 620px 310px;
+    grid-gap: 19px;
+}
+
+button {
+    background-color: transparent;
+    border: 1px solid #f0d8d9;
+    border-radius: 5px;
+    color: #f0d8d9;
+    width: 100px;
+    height: 36px;
+    float: right;
+}
+
+.Logo2 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    line-height: 18px;
+    color: #f0d8d9;
+    font-family: "Lato Black";
+    font-weight: 900;
+    text-align: left;
+}
+
+.Text_after_Logo2 {
+    font-size: 12px;
+    line-height: 21.5px;
+    color: #f0d8d9;
+    font-family: "Lato Regular";
+    font-weight: 400;
+    text-align: left;
+}
+
+.Text_after_Logo3 {
+    font-size: 12px;
+    line-height: 21px;
+    color: #f0d8d9;
+    font-family: "Lato Regular";
+    font-weight: 400;
+    text-align: left;
+}
+
+.Text_after_Logo3 span {
+    margin-left: 11px;
+}
+
+.Addition {
+    margin-bottom: 16px;
+    font-size: 12px;
+    line-height: 22px;
+    color: #f48c8f;
+    font-family: "Lato Regular";
+    font-weight: 400;
+    text-align: left;
+    width: 619px;
+    height: 36px;
+    border-radius: 5px;
+    border: none;
+    background-color: #d6564f;
+}
+
+.message {
+    margin-bottom: 16px;
+    font-size: 12px;
+    line-height: 22px;
+    color: #f48c8f;
+    font-family: "Lato Regular";
+    font-weight: 400;
+    text-align: left;
+    border-radius: 5px;
+    border: none;
+    background-color: #d6564f;
 }
 
 .Get_a_Quote_Line {
@@ -73,4 +151,43 @@ body {
     width: 1020px;
     height: 76px;
     background-color: #2d303a;
+}
+
+.copyright {
+    display: inline-block;
+    padding:31px 0 0 42px;
+    font-weight: 300;
+    font-size: 12px;
+    color: #666d89;
+    letter-spacing: 0.01em;
+}
+
+.link {
+    display: grid;
+    grid-template: 32px / repeat(4,32px);
+    margin:-24px 0 0 828px;
+    grid-column-gap: 8px;
+}
+
+
+::placeholder {
+    font-family: "Lato Regular";
+    font-weight: 400;
+    color: #f48c8f;
+    opacity: 1;
+    padding-left: 14px;
+    padding-top: 5px;
+    font-size: 12px;
+}
+
+.first {
+    margin:25px 0 0 4px;
+}
+
+.two{
+    margin-left:2px;
+}
+
+.three{
+    margin:1px 0 0 1px;
 }
