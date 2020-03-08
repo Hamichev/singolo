@@ -8,22 +8,33 @@
     <div class="Get_a_Quote">
         <h1 class="Logo">Get a Quote</h1>
         <p class="Text_after_Logo">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-        <div class="Input_Text">
-            <input type="text" name="Name" value="Name(Required)" size="20" maxlength="5" required>
-            <input type="text" name="Email" value="Email(Required)" size="20" maxlength="32" required>
-            <input type="text" name="Subject" value="Subject" size="20" maxlength="32">
-            <textarea name="mesage" rows="4" cols="55" wrap="virtual"> Describe your project in detail... </textarea>
-            <input type="submit" name="Submit" value="Submit">
+        <div class="Grid_Box">
+            <form method="POST">
+                <input type="text" class="Addition"  placeholder="Name (Required)" required>
+                <input type="text" class="Addition" placeholder="Email (Required)" required>
+                <input type="text" class="Addition" placeholder="Subject">
+                <textarea name="description" class="message" rows="9" cols="101" placeholder="Describe your project in detail..."></textarea>
+                <button type="submit" formmethod="POST">Submit</button>
+            </form>
+            <div>
+                <h2 class="Logo2">Contact Information</h2>
+                <p class="Text_after_Logo2">Quisque hendrerit purus dapibus, ornare nibh vitae, viver- ra nibh. Fusce vitae aliquam tellus. Proin sit amet volutpat libero. Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet turpis, et consequat felis. </p>
+                <p class="Text_after_Logo3 first"><img src="./assets/image/location.png"><span></span>Elm St. 14/05 Lost City</p>
+                <p class="Text_after_Logo3 two" href="tel:035283318635"><img src="./assets/image/phone.png"><span></span>03528 331 86 35</p>
+                <p class="Text_after_Logo3 three" href="mailto:info@singolo.com"><img src="./assets/image/mail.png"><span></span>info@singolo.com</p>
+            </div>
         </div>
+    </div>
+
     </div>
     <div class="Get_a_Quote_Line"></div>
     <div class="Footer">
-        <div class="link">
-            <p></p>
-            <img src="./assets/image/Facebook.png">
-            <img src="./assets/image/Google.png">
-            <img src="./assets/image/Twitter.png">
-            <img src="./assets/image/LinkedIn.png">
+        <div class="copyright">&copy; Copyright <span class="copy-date">2013</span></div>
+        <div class="link" href="#">
+            <img src="./assets/image/Facebook.png" alt="facebook">
+            <img src="./assets/image/Google.png" alt="google+">
+            <img src="./assets/image/Twitter.png" alt="twitter">
+            <img src="./assets/image/LinkedIn.png" alt="linkedin">
         </div>
     </div>
 </body>
